@@ -55,6 +55,17 @@ public class ArrayPracticeWithMethod {
         }
     }
 
+    public static void compare2StringArrayLength (String[] stArr1 , String[] stArr2){
+
+        if(stArr1.length> stArr2.length){
+            System.out.println("Array 1 has more items");
+        }else if (stArr1.length < stArr2.length){
+            System.out.println("Array 2 has more items");
+        }else{
+            System.out.println("Both arrays have the same number of arrays");
+        }
+    }
+
 
     public static void main(String[] args) {
 
