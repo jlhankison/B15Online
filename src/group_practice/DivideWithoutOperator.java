@@ -25,16 +25,16 @@ public class DivideWithoutOperator {
             x *= -1;
         }
         if (y < 0 ){
-            
+            y *= -1;
         }
         int quotient = 0;
 
         while( x>y){
-
-
-
+            x-= y;
+            quotient++;
         }
-        return quotient;
+        quotient *= symbol;
+        return quotient ;
 
     }
 }

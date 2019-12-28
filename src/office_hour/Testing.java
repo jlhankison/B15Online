@@ -1,19 +1,18 @@
 package office_hour;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
 
-        int num =53;
-        int divisor = -5;
-        int count =0;
-        for(int y = 1 ; y<num ; y++){
-            if (y%divisor==0){
-                count++;
-            }
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        int x = scan.nextInt();
+        int count = 0;
+        for (int i = 1; i <num; i+=x) {
+            count++;
         }
-        System.out.println(count);
-//count = nun/2
+        System.out.println(" Numbers -- Divide without / operator: "+count);
     }
 }
