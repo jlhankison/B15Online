@@ -19,4 +19,15 @@ public class MethodWithWrapperTypes {
 
         System.out.println(num1 + num2);
     }
+
+    /*
+    * This method doubles an Integer object and returns the result
+    * @param x type Integer, value to be doubled
+    * @return type Integer, returns the value of x doubled
+    * */
+
+    public static Integer doubleInteger (Integer x){
+
+        return x + x;
+    }
 }
