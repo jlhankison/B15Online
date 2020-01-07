@@ -13,6 +13,8 @@ public class MethodPractice {
         swapFirstLastIndex(nums);
         System.out.println(Arrays.toString(nums));
 
+
+
         Integer x = null; //<-- Integer objects can store a null point
         // int x = null; <-- impossible because int is primitive data
 
