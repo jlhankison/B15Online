@@ -5,6 +5,7 @@ public class CyberHouse {
     int houseNum;
     String design;
 
+
     private static String neighborhoodName;
 
     public CyberHouse(int houseNum, String design) {
