@@ -6,4 +6,9 @@ public interface Edible {
 
     void eat();
     void drink();
+
+    public default void digest(){
+
+        System.out.println("TODO: YOU IMPLEMENT digest METHOD YOURSELF");
+    }
 }
