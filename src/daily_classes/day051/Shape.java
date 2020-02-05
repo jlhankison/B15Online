@@ -3,6 +3,11 @@ package daily_classes.day051;
 public abstract class Shape {
 
     public  abstract void draw();
+
+    public static String shapeType (Shape anyShape){
+        return anyShape.getClass().getSimpleName();
+
+    }
 }
 
 class Triangle extends Shape{

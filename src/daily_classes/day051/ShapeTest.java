@@ -21,6 +21,7 @@ public class ShapeTest {
 
         for (Shape each : lst) {
             each.draw();
+            System.out.println(Shape.shapeType(each));
         }
     }
 }

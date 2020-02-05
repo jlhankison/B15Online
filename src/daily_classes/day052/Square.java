@@ -1,4 +1,6 @@
-package daily_classes.day049;
+package daily_classes.day052;
+
+import daily_classes.day049.Shape;
 
 public class Square extends Shape {
 

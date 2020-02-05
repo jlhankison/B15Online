@@ -1,6 +1,8 @@
 package daily_classes.day049;
 
-public class Burger implements Edible, Juicy {
+import daily_classes.day052.Time;
+
+public class Burger implements Edible, Juicy, Time {
 
     private String burgerType;
 
@@ -21,5 +23,17 @@ public class Burger implements Edible, Juicy {
     @Override
     public void melt() {
         System.out.println("The burger melts in your mouth with juices");
+    }
+
+    @Override
+    public double CreationTimeStamp() {
+
+
+        return 927;
+    }
+
+    @Override
+    public double timeToRun() {
+        return 0;
     }
 }

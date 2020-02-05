@@ -1,5 +1,8 @@
 package daily_classes.day049;
 
+import daily_classes.day052.Circle;
+import daily_classes.day052.Square;
+
 public class Main  {
 
 
@@ -30,7 +33,6 @@ public class Main  {
         System.out.println(s2.area);
         s2.draw();
 
-        s2.sayHello();
 
         
 

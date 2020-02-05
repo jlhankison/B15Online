@@ -1,10 +1,12 @@
-package daily_classes.day049;
+package daily_classes.day052;
+
+import daily_classes.day049.Shape;
 
 public class Circle extends Shape {
 
     double radius;
 
-    public Circle(String name, double radius) {
+    public Circle(String name, double  radius) {
         super(name);
         this.radius = radius;
     }
