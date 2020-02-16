@@ -2,7 +2,7 @@ package daily_classes.day052;
 
 import daily_classes.day049.Shape;
 
-public class Rectangle extends Shape implements Time{
+public class Rectangle extends Shape{
 
     int width;
     int height;
@@ -24,13 +24,4 @@ public class Rectangle extends Shape implements Time{
         System.out.println("Draw a Rectangle");
     }
 
-    @Override
-    public double CreationTimeStamp() {
-        return 0;
-    }
-
-    @Override
-    public double timeToRun() {
-        return 0;
-    }
 }

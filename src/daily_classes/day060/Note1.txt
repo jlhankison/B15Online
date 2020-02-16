@@ -1,0 +1,26 @@
+
+
+
+    ------- How to create custom Exception? --------
+
+
+    How do you create your own unchecked exception type:
+
+        BreakTimeException , BrainOutOfMemoryException
+
+        What is unchecked exception > Anything IS-A RunTimeException
+
+        ALL YOU NEED TO DO IS TOR CREATE A SUBCLASS OF RunTimeException WITH YOUR OWN NAME
+
+        public class BreakTimeException extends RuntimeException (or any subclass of it) {
+
+        }
+
+
+    How do you create your own checked exception type:
+
+        ALL YOU NEED TO DO IS TO CREATE A SUBCLASS OF ANY CHECKED EXCEPTION WITH YOUR OWN NAME
+
+            public class HittingHeadToWallException extends Exception (or any other checked subclass of it){
+
+            }

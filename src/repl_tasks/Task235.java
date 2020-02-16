@@ -13,7 +13,7 @@ public class Task235 {
         tJ1.addOnSaleItem(new OnSaleItem("ball", 10,12492, 32, .2));
         tJ1.addRegularItem(new Item("Skate",4, 28632, 32));
         System.out.println(tJ1.getRegularItems());
-        tJ1.getOnSaleItems()
+        tJ1.getOnSaleItems();
     }
 }
 

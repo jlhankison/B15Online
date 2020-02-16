@@ -14,11 +14,7 @@ public class StartTimes {
 
         Burger b1 = new Burger("Double Stack");
 
-        List<Time> lst = (Arrays.asList(b1, new Rectangle("bla", 5, 4) ));
 
-        for (Time each :
-                lst) {
-            each.CreationTimeStamp();
-        }
+
     }
 }
