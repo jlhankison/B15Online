@@ -27,7 +27,7 @@ public class StateSet2 {
             System.out.println(iteratorStates.next());
         }
 
-        // Collections removeIf method
+        // Lambda remove if expression
         States.removeIf(each-> each.contains("A"));
 
         System.out.println("States = " + States);
