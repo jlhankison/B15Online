@@ -1,6 +1,9 @@
 package daily_classes.day062;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class SetInterface2 {
 
@@ -14,7 +17,6 @@ public class SetInterface2 {
         Set<Integer> myNums = new HashSet<>(numList);
 
         System.out.println("myNums = " + myNums);
-
 
     }
 

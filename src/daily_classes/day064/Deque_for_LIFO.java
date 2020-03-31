@@ -16,10 +16,12 @@ public class Deque_for_LIFO {
 
         System.out.println("taskQueue = " + lifoQue);
 
+        System.out.println("taskQueue.removeLast() = " + lifoQue.removeLast());
+        System.out.println("taskQueue.removeLast() = " + lifoQue.removeLast());
+        System.out.println("taskQueue.removeFirst() = " + lifoQue.removeFirst());
+        System.out.println("taskQueue.removeFirst() = " + lifoQue.removeFirst());
 
-        System.out.println("taskQueue.removeLast() = " + lifoQue.removeLast());
-        System.out.println("taskQueue.removeLast() = " + lifoQue.removeLast());
-        System.out.println("taskQueue.removeFirst() = " + lifoQue.removeFirst());
-        System.out.println("taskQueue.removeFirst() = " + lifoQue.removeFirst());
+
+        System.out.println("lifoQue = " + lifoQue);
     }
 }
